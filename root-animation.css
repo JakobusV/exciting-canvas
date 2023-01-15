@@ -1,0 +1,59 @@
+.submit_assignment_link {
+    animation: rainbow-border 0.5s linear;
+    animation-iteration-count: infinite;
+}
+
+#submit_online_upload_form {
+    animation: rainbow-border 0.5s linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rainbow-border {
+    100%,0% {
+    box-shadow: 0px 0px 20px rgb(255,0,0);
+    }
+
+    8% {
+    box-shadow: 0px 0px 20px rgb(255,127,0);
+    }
+
+    16% {
+    box-shadow: 0px 0px 20px rgb(255,255,0);
+    }
+
+    25% {
+    box-shadow: 0px 0px 20px rgb(127,255,0);
+    }
+
+    33% {
+    box-shadow: 0px 0px 20px rgb(0,255,0);
+    }
+
+    41% {
+    box-shadow: 0px 0px 20px rgb(0,255,127);
+    }
+
+    50% {
+    box-shadow: 0px 0px 20px rgb(0,255,255);
+    }
+
+    58% {
+    box-shadow: 0px 0px 20px rgb(0,127,255);
+    }
+
+    66% {
+    box-shadow: 0px 0px 20px rgb(0,0,255);
+    }
+
+    75% {
+    box-shadow: 0px 0px 20px rgb(127,0,255);
+    }
+
+    83% {
+    box-shadow: 0px 0px 20px rgb(255,0,255);
+    }
+
+    91% {
+    box-shadow: 0px 0px 20px rgb(255,0,127);
+    }
+}
